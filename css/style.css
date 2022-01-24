@@ -9,8 +9,8 @@
     --white: hsl(0, 0%, 100%);
     --cyan: hsl(178, 100%, 50%);
 
-    --image-size: 220px;
-    --creator-image-size: 24px;
+    --image-size: 280px;
+    --creator-image-size: 28px;
 }
 
 body {
@@ -28,8 +28,8 @@ body {
 }
 
 .frame {
-    width: 260px;
-    height: 440px;
+    width: 320px;
+    height: 530px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,12 +61,13 @@ body {
 }
 
 .description .big-text {
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .description .small-text {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 16px;
     color: var(--softblue);
 }
@@ -85,8 +86,8 @@ body {
 
 .price .price-text {
     color:var(--cyan);
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 18px;
     margin-left: 6px;
 }
 
@@ -98,13 +99,13 @@ body {
 
 .time .time-text {
     color: var(--softblue);
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 300;
+    font-size: 16px;
     margin-left: 6px;
 }
 
 .line {
-    width: 220px;
+    width: 280px;
     height: 1px;
     margin: 16px 0;
     background-color: var(--very-dark-blue-line);
@@ -132,9 +133,9 @@ body {
 
 .creator-info .creator-name {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
     color: var(--softblue);
-    margin-left: 10px;
+    margin-left: 14px;
 }
 
 .attribution {
